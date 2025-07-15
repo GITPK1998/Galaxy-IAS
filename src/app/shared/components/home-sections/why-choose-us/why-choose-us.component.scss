@@ -1,0 +1,17 @@
+.why-choose-us {
+  background-color: #f8f9fa;
+
+  h2 {
+    color: #0c263a;
+    font-weight: 600;
+  }
+
+  .card {
+    transition: transform 0.3s ease;
+    border: none;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+}

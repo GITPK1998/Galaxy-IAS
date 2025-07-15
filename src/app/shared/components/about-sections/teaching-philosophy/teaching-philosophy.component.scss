@@ -1,0 +1,32 @@
+.teaching-approach {
+  background-color: #ffffff;
+
+  .section-title {
+    color: #0c263a;
+    font-weight: 600;
+  }
+
+  .approach-card {
+    background-color: #f8f9fa;
+
+    h5 {
+      font-weight: 600;
+      color: #0c263a;
+    }
+
+    p {
+      font-size: 1.05rem;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    i {
+      display: block;
+    }
+
+    &:hover {
+      background-color: #e9ecef;
+      transition: background-color 0.3s ease;
+    }
+  }
+}

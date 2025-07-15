@@ -1,0 +1,56 @@
+<!-- =================  Contact Form Card  ================= -->
+<div class="card shadow-sm border-0 mx-auto" style="max-width: 620px;">
+  <div class="card-body p-4">
+    <h3 class="card-title text-center mb-4">Get in Touch</h3>
+
+    <form class="row g-3" novalidate>
+      <!-- 👤 Name (required) -->
+      <div class="col-12">
+        <label class="form-label">👤 Name <span class="text-danger">*</span></label>
+        <input type="text"
+               class="form-control"
+               name="name"
+               placeholder="Your full name"
+               required />
+      </div>
+
+      <!-- 📱 Phone (required) -->
+      <div class="col-md-6">
+        <label class="form-label">📱 Phone <span class="text-danger">*</span></label>
+        <input type="tel"
+               class="form-control"
+               name="phone"
+               placeholder="10‑digit number"
+               pattern="^[6-9]\d{9}$"
+               required />
+      </div>
+
+      <!-- ✉️ Email (optional) -->
+      <div class="col-md-6">
+        <label class="form-label">✉️ Email (optional)</label>
+        <input type="email"
+               class="form-control"
+               name="email"
+               placeholder="you@example.com" />
+      </div>
+
+      <!-- 📝 Message (required) -->
+      <div class="col-12">
+        <label class="form-label">📝 Message <span class="text-danger">*</span></label>
+        <textarea rows="4"
+                  class="form-control"
+                  name="message"
+                  placeholder='e.g. "Interested in 10th SSC Math"'
+                  required></textarea>
+      </div>
+
+      <!-- 📤 Submit -->
+      <div class="col-12 text-center pt-2">
+        <button type="submit" class="btn btn-primary px-5">
+          📤 Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- ====================================================== -->

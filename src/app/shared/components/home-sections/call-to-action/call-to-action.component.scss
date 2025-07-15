@@ -1,0 +1,18 @@
+.cta-section {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('/assets/cta-bg.jpg') center/cover no-repeat;
+  padding: 80px 20px;
+}
+
+.cta-section h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.cta-section .btn {
+  font-size: 1.1rem;
+  font-weight: 500;
+}

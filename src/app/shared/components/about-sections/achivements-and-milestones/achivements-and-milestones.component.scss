@@ -1,0 +1,39 @@
+.achievements {
+  background-color: #f8f9fa;
+
+  .section-title {
+    color: #0c263a;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  /* Timeline Styling */
+  .timeline {
+    position: relative;
+    border-left: 3px solid #0c263a;
+    margin-left: 20px;
+    padding-left: 30px;
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .timeline-year {
+    font-weight: bold;
+    color: #0c263a;
+    margin-bottom: 5px;
+  }
+
+  .timeline-content {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-left: 5px solid #0c263a;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+}

@@ -1,0 +1,27 @@
+<footer class="footer text-white py-5">
+  <div class="container">
+    <div class="row align-items-start mb-4">
+      <!-- 1st Column: Logo & Description -->
+      <div class="col-12 col-sm-6 col-md-3 mb-4">
+        <img src="assets/galaxy-ias-logo.png" alt="Galaxy IAS Logo" class="footer-logo mb-3" />
+        <p class="small text-white">Empowering Civil Services Aspirants Since 2010</p>
+      </div>
+
+      <!-- 3 More Dynamic Columns -->
+      <div class="col-12 col-sm-6 col-md-3 mb-4" *ngFor="let section of footerSections">
+        <h5 class="text-uppercase">{{ section.heading }}</h5>
+        <ul class="list-unstyled">
+          <li *ngFor="let link of section.links">
+            <a href="#" class="footer-link">{{ link }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="bg-white" />
+
+    <div class="text-center small">
+      &copy; {{ currentYear | date: 'yyyy' }} Galaxy IAS. All rights reserved.
+    </div>
+  </div>
+</footer>

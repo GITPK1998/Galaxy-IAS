@@ -1,0 +1,29 @@
+<!-- Courses List Grid -->
+<section class="courses-list py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">All Courses</h2>
+
+    <div class="row g-4">
+      <div
+        class="col-12 col-sm-6 col-lg-4 col-xl-3"
+        *ngFor="let c of courses"
+      >
+        <div class="course-card h-100 shadow-sm rounded">
+          <img [src]="c.img" [alt]="c.title" class="course-img rounded-top" />
+
+          <div class="p-4 d-flex flex-column">
+            <h5 class="mb-2">{{ c.title }}</h5>
+            <p class="flex-grow-1">{{ c.desc }}</p>
+
+            <a
+              [routerLink]="c.link"
+              class="btn btn-outline-primary mt-2 align-self-start"
+            >
+              View&nbsp;Details
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

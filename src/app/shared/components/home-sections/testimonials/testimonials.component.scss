@@ -1,0 +1,28 @@
+.testimonials {
+  background-color: #f8f9fa;
+
+  h2 {
+    color: #0c263a;
+    font-weight: 600;
+  }
+
+  .card {
+    border: none;
+    padding: 1.5rem;
+    font-style: italic;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  h6 {
+    color: #0c263a;
+    font-weight: 600;
+  }
+
+  .text-muted {
+    font-size: 0.9rem;
+  }
+}

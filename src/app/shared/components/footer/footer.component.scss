@@ -1,0 +1,27 @@
+.footer {
+  background-color: #0c263a;
+
+  .footer-logo {
+    height: 74px;
+   // filter: brightness(0) invert(1); // optional if logo is dark
+  }
+
+  h5 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .footer-link {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #ffc107;
+    }
+  }
+
+  hr {
+    margin-top: 2rem;
+  }
+}
